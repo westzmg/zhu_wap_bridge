@@ -167,5 +167,18 @@ export const EVENTS_TYPE = {
 	aliPushMessage: 'aliPushMessage', // 阿里云推送监听
 };
 
+export default {
+	isNative,
+	takePhoto,
+	recordVideo,
+	barCodeScan,
+	openWindow,
+	closeWindow,
+	getPosition,
+	launchCQDigitalSign,
+	launchFingerSign,
+	launchShare,
+	getToken,
+}
 
 

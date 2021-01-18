@@ -3,7 +3,7 @@ import _ from 'lodash'
 
 import {Button} from "antd-mobile";
 
-import {barCodeScan} from "./_Bridge"
+import {_Bridge} from "../components"
 
 export default class extends React.Component {
     constructor(props) {
@@ -15,7 +15,7 @@ export default class extends React.Component {
 
     doFunc = async (options)=> {
         this.setState({result: null}, async ()=>{
-            const result = await barCodeScan(options);
+            const result = await _Bridge.barCodeScan(options);
             this.setState({result: result})
         })
     };

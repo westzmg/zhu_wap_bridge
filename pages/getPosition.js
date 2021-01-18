@@ -3,7 +3,7 @@ import moment from 'moment'
 
 import {Button, Toast} from "antd-mobile";
 
-import {getPosition} from "./_Bridge"
+import {_Bridge} from "../components"
 
 export default class extends React.Component {
     constructor(props) {
@@ -17,7 +17,7 @@ export default class extends React.Component {
         Toast.loading("获取坐标");
         this.setState({result: null}, async ()=>{
             try {
-                const result = await getPosition(options);
+                const result = await _Bridge.getPosition(options);
                 this.setState({result: JSON.stringify(result)})
             } catch (e) {
                 console.error(e)

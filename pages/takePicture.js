@@ -3,7 +3,7 @@ import _ from 'lodash'
 
 import {Button, Toast} from "antd-mobile";
 
-import {takePhoto} from "./_Bridge"
+import {_Bridge} from "../components"
 
 export default class extends React.Component {
     constructor(props) {
@@ -16,7 +16,7 @@ export default class extends React.Component {
     doFunc = async (options)=> {
         Toast.loading("正在装载");
         this.setState({result: null}, async ()=>{
-            const result = await takePhoto(options);
+            const result = await _Bridge.takePhoto(options);
             this.setState({result: result}, ()=>{
                 Toast.hide()
             })

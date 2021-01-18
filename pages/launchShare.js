@@ -3,7 +3,7 @@ import _ from 'lodash'
 
 import {Button} from "antd-mobile";
 
-import {launchShare} from "./_Bridge"
+import {_Bridge} from "../components"
 import {InputItem} from "antd-mobile";
 
 export default class extends React.Component {
@@ -20,7 +20,7 @@ export default class extends React.Component {
             const options = {
                 message: this.state.message
             };
-            const result = await launchShare(options);
+            const result = await _Bridge.launchShare(options);
             this.setState({result: result})
         })
     };

@@ -3,7 +3,7 @@ import moment from 'moment'
 
 import {Button} from "antd-mobile";
 
-import {openWindow} from "./_Bridge"
+import {_Bridge} from "../components"
 
 export default class extends React.Component {
     constructor(props) {
@@ -13,7 +13,7 @@ export default class extends React.Component {
     }
 
     doFunc = async (options)=> {
-        const result = await openWindow(options);
+        const result = await _Bridge.openWindow(options);
     };
 
     render() {

@@ -2,11 +2,11 @@
 [
     [
         "@babel/env",
-    {
-        "modules": false,
-        "useBuiltIns": "usage"
-    }
-], "@babel/react"] ,
+        {
+            "modules": false,
+            "useBuiltIns": "usage"
+        }
+    ], "@babel/react"] ,
     "plugins": [
         [
             "@babel/plugin-proposal-decorators",

@@ -5,7 +5,7 @@ import {Link} from 'umi'
 import 'antd-mobile/dist/antd-mobile.css'
 import {Button} from "antd-mobile";
 
-import {closeWindow} from "./_Bridge"
+import {closeWindow} from "../components/_Bridge"
 
 moment.locale("zh-CN");
 

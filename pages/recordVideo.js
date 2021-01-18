@@ -3,7 +3,7 @@ import _ from 'lodash'
 
 import {Button, Toast} from "antd-mobile";
 
-import * as _Bridge from "./_Bridge"
+import {_Bridge} from "../components"
 
 export default class extends React.Component {
     constructor(props) {
