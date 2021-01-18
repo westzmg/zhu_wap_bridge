@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules
+app/dist/
+dist/
+npm-debug.log
+.idea/
+workspace.xml
+pages/.umi/
+*/.umi/
+

@@ -1,0 +1,33 @@
+{
+  "name": "zhu_wap_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=15001 COMPILE_ON_DEMAND=none umi dev",
+    "build": "umi build",
+    "dist": "babel components -d libs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "westzmg",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native-webview-invoke": "^0.5.1"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.3.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-eva": "^1.1.7",
+    "react-native-webview-invoke": "^0.5.1",
+    "superagent": "^5.1.1",
+    "umi": "^2.12.2",
+    "umi-plugin-react": "^1.14.5"
+  },
+  "devDependencies": {
+
+  }
+}
