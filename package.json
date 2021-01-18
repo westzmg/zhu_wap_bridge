@@ -6,7 +6,7 @@
   "scripts": {
     "start": "PORT=15001 COMPILE_ON_DEMAND=none umi dev",
     "build": "umi build",
-    "dist": "babel components -d dist",
+    "dist": "babel components -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "westzmg",
