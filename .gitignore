@@ -6,4 +6,4 @@ npm-debug.log
 workspace.xml
 pages/.umi/
 */.umi/
-
+yarn-error.log

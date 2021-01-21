@@ -17447,6 +17447,22 @@ yeoman-generator@^4.8.2:
     grouped-queue "^1.1.0"
     yeoman-environment "^2.9.5"
 
+"zhu_wap_test@https://github.com/westzmg/zhu_wap_bridge.git":
+  version "1.0.0"
+  resolved "https://github.com/westzmg/zhu_wap_bridge.git#9014f15c559e59db25a0947b151fa34675c870f6"
+  dependencies:
+    antd-mobile "^2.3.1"
+    lodash "^4.17.15"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    react-dom "^16.12.0"
+    react-eva "^1.1.7"
+    react-native-webview-invoke "^0.5.1"
+    superagent "^5.1.1"
+    umi "^2.12.2"
+    umi-plugin-react "^1.14.5"
+
 zscroller@~0.4.0:
   version "0.4.8"
   resolved "https://registry.npm.taobao.org/zscroller/download/zscroller-0.4.8.tgz#69eed68690808eedf81f9714014356b36cdd20f4"

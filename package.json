@@ -1,5 +1,5 @@
 {
-  "name": "zhu_wap_test",
+  "name": "zhu_wap_bridge",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,7 +25,8 @@
     "react-native-webview-invoke": "^0.5.1",
     "superagent": "^5.1.1",
     "umi": "^2.12.2",
-    "umi-plugin-react": "^1.14.5"
+    "umi-plugin-react": "^1.14.5",
+    "zhu_wap_test": "https://github.com/westzmg/zhu_wap_bridge.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
